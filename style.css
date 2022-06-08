@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color01: #323232;
+    --color02: #9EEFC3;
+}
+
+header {
+    max-width: 375px;
+    padding: 18px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    padding: 7px 17px;
+    border: none;
+    color: var(--color01);
+    background-color: var(--color02);
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    background: var(--color01);
+    font-family: 'Roboto', sans-serif;
+}
+
+body .content {
+    max-width: 375px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 18px;
+    margin-inline: auto;
+    background: var(--color01);
+    color: white;
+}
+
+h1 {
+    font-size: 22px;
+    padding: 50px 0px 20px;
+}
+
+p {
+    font-size: 18px;
+    padding: 30px 0 5px;
+}
+
+input#weight, #height {
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center; 
+    color: #ffffff;
+    background-color: var(--color01);
+    border: none;
+    width: 339px;
+    padding: 5px;
+    margin-inline: auto;
+    border-bottom: 1px solid var(--color02);
+    outline: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div.res, #result, #result2 {
+    color: var(--color02);
+    margin: 0px 0;
+    padding: 0 0 1px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button {
+    margin: 35px auto 18px auto;
+}
+
+input#button {
+    width: 330px;
+    padding: 10px;
+    border: none;
+    color: var(--color01);
+    background-color: var(--color02);
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#button:hover, header a:hover {
+    background-color: hsl(147, 79%, 62%);
+}
+
+footer {
+    max-width: 375px;
+    margin-inline: auto;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #9EEFC3;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <div id="calc" onclick="calcule()"><button>Calcular</button></div> 
+        <div id="calc" onclick="calcule()">clique aqui</div>  
+        <div id="result">Resultado</div>-->
+</head>
+<body>
+    <header>
+        <a href="">Resetar</a>
+    </header>
+    <div class="content">
+        <h1>Calculadora IMC</h1>
+        <p>Peso (Kg)</p>
+        <input  type="number" id="weight">
+        <p>Altura (Cm)</p>
+        <input type="number" id="height"><br>
+        <div class="button">
+            <input type="button" id="button" value="Calcular" onclick="calcule()">
+        </div>
+        <!-- <textarea name="" id="result" cols="30" rows="10"></textarea> -->
+        <div class="res">
+            <div id="result2">Informe seus dados!</div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <footer><p>Feito por <a href="https://www.linkedin.com/in/samuelsilvati/" target="_blank">Samuel</a> | layout de <a href="https://www.figma.com/@bustamante" target="_blank">Lucas Bustamante</a></p></footer>
+    <script src="script.js"></script>  
+</body>
+</html>
